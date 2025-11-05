@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
-import 'package:football_news/menu.dart';
-import 'package:football_news/newslist_form.dart';
+import 'package:football_news/screens/menu.dart';
+import 'package:football_news/screens/newslist_form.dart';
 
 class LeftDrawer extends StatelessWidget {
   const LeftDrawer({super.key});
@@ -61,7 +60,6 @@ class LeftDrawer extends StatelessWidget {
               MaterialPageRoute(builder: (context) => const NewsFormPage()));
             },
           ),
-          // TODO: Buat ListTile baru untuk ke halaman melihat news
           ListTile(
             leading: const Icon(Icons.post_add),
             title: const Text('All News'),
